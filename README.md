@@ -1,7 +1,7 @@
 # React-Todo App
 
 ## Skills
-Fruits:
+Skills for this project:
 
 - React ( React Hooks ) 
 - Weather API
