@@ -7,5 +7,12 @@ Skills for this project:
 - Weather API
 - Real Time 
 
-This application was built using create-react-app as a base, 
-and the technologies used were React (Custom Hooks, Context)
+This repository provides a code of the React-Todo application 
+written using React Hook, React JSX and ES6.
+
+##Running the example
+```js
+npm install
+npm start
+open http://localhost:3000
+```
