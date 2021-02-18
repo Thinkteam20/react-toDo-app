@@ -1,10 +1,11 @@
 import React from 'react';
 import App from '../App';
+import './Template.css';
 
-const Template = ({children}) => {
+const Template = ({children, todoLength}) => {
     return(
-    <div>
-        <div>Today Todos(0)</div>
+    <div className="Template">
+        <div className="title">Today Todos({todoLength})</div>
         <div>{children}</div>
     </div>
     );

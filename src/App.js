@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { MdAddCircle } from 'react-icons/md';
 import './App.css';
 import Template from './components/Template';
 import TodoList from './components/TodoList';
@@ -13,18 +14,21 @@ function App() {
     {
       id:2,
       text: "todo 2",
-      checked: true
+      checked: false
     },
     {
       id:3,
       text: "todo 3",
       checked: true
     },
+    
   ])
   return (
-    <Template>
+    <Template todoLength={todos.length}>
       <TodoList todos={todos}/>
+      <div className="add-todo-button"><MdAddCircle/></div>
     </Template>
+    
   );
 }
 
